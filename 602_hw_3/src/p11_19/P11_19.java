@@ -12,9 +12,14 @@ public class P11_19
 What is the output of the following code?
 
 A. Person Person
+This is correct because Student's getInfo is private and does not override Person's getInfo
+so when printPerson is called, the JVM only finds Person's getinfo
 B. Person Student
+This is incorrect because Student's getInfo is never found
 C. Student Student
+This is incorrect because Person's getInfo is found, not Student's.
 D. Student Person
+This is incorrect for same reason as C
 
 */
 

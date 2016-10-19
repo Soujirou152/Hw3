@@ -12,9 +12,15 @@ public class P11_34
 Analyze the following code.
 
 A. Program 1 displays true and Program 2 displays true
+This is incorrect since Program 1 displays false because a1 and a2 are initialized as
+Objects to new A(), the x's are not the same
 B. Program 1 displays false and Program 2 displays true
+This is correct
 C. Program 1 displays true and Program 2 displays false
+This is incorrect because Program 2 displays true because a1 and a2 are initialized with A2 and
+new A2(), checking the contents of the x's will be the same
 D. Program 1 displays false and Program 2 displays false
+This is incorrect for same reason as C
 
 */
 

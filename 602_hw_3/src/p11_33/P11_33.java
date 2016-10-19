@@ -11,10 +11,16 @@ public class P11_33
 Analyze the following code.
 
 A. Program 1 displays true and Program 2 displays true
+This is incorrect because program 2 displays false because the equals method in A2 checks to see
+if the x's in each instance of object is referencing same int, and they are not since they are 
+initialized with new
 B. Program 1 displays false and Program 2 displays true
+This is incorrect because program 1 displays true because when the equals method in A is called, 
+it casts the argument input as  class A, making the x's the same
 C. Program 1 displays true and Program 2 displays false
+This is correct
 D. Program 1 displays false and Program 2 displays false
-
+This is incorrect for same reason as B
 */
 // Program 1:
 class Test

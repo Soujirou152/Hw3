@@ -17,10 +17,14 @@ public class P11_23
 /*
  * Given the following classes and their objects:
  * 
- * A. c3 is cast into c2 successfully. B. You will get a runtime error because
- * you cannot cast objects from sibling classes. C. You will get a runtime error
- * because the Java runtime system cannot perform multiple casting in nested
- * form. D. The statement is correct.
+ * A. c3 is cast into c2 successfully. 
+ * This is incorrect because you get a runtime error because C2 and and C3 sibling classes
+ * B. You will get a runtime error because you cannot cast objects from sibling classes.
+ * This is correct 
+ * C. You will get a runtime error because the Java runtime system cannot perform multiple casting in nested form.
+ * This is incorrect because Java runtime system is able to do multiple cast in nested form 
+ * D. The statement is correct.
+ * This is incorrect
  * 
  */
 

@@ -12,9 +12,16 @@ public class P11_35
 Analyze the following code.
 
 A. Program 1 displays true and Program 2 displays true
+This is correct since in Program 1, a1 and a2 are casted as A, and 
+have same value. Program 2 displays true because a1 and a2 
+are initialized with A2 and new A2(), checking the contents of the 
+x's will be the same
 B. Program 1 displays false and Program 2 displays true
+This is incorrect because Program 1 displays true for reason given in A
 C. Program 1 displays true and Program 2 displays false
+This is incorrect because program 2 displays true in reason given in A
 D. Program 1 displays false and Program 2 displays false
+This is incorrect
 
 */
 
