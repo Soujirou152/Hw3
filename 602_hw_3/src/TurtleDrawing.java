@@ -41,9 +41,9 @@ class t1 extends TurtleDrawing {
 		// TODO Auto-generated method stub
 		double step = Math.sqrt(3) / 2;
 
-		super.turtle.penDown();
-		super.turtle.goForward(step);
-		super.turtle.turnLeft(120.0);
+		turtle.penDown();
+		turtle.goForward(step);
+		turtle.turnLeft(120.0);
 		super.turtle.goForward(step);
 		super.turtle.turnLeft(120.0);
 		super.turtle.goForward(step);
